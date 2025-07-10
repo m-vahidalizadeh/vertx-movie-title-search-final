@@ -1,0 +1,37 @@
+# Created by Gemini Code Assist
+
+# Compiled Java class files and archives
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build output directory
+/target/
+
+# Log files
+*.log
+
+# IDE-specific configuration files
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Operating System generated files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
