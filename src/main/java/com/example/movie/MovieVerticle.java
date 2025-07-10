@@ -26,7 +26,7 @@ public class MovieVerticle extends AbstractVerticle {
      * IMPORTANT: For a real application, it's highly recommended to load this
      * from a configuration file or an environment variable instead of hardcoding it.
      */
-    private static final String TMDb_API_KEY = "API_KEY_PLACE_HOLDER";
+    private static final String TMDb_API_KEY = System.getenv("TMDB_API_KEY");
 
     @Override
     public void start(Promise<Void> startPromise) {
